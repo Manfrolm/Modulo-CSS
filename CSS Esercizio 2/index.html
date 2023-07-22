@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Esercizio 2 - Nav</title>
+  </head>
+  <body>
+    <nav>
+      <div id="container">
+        <div id="logo">
+          <span id="logo-text">Navbar</span>
+        </div>
+
+          <div id="list">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Link</a></li>
+
+              <li>
+                <div id="dropdown">
+                  <button id="dropdown-button">Dropdown<i class="fa-solid fa-caret-down"></i></button>
+                  <div id="dropdown-list">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                  </div>
+                </div>
+              </li>
+              <li><a href="" id="disabled">Disabled</a></li>
+            </ul>
+          </div>
+        
+        <div id="search-bar">
+          <input type="text" id="search" placeholder="Search" />
+          <button id="search-button">Search</button>
+        </div>
+      </div>
+    </nav>
+  </body>
+</html>
