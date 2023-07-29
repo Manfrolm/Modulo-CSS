@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+#container{
+    width: 300px;
+    box-shadow: 0px 10px 15px 15px rgba(0,0,0,0.1);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#display{
+    background-color: #424c52;
+    padding: 10px;
+    text-align: right;
+    font-size: 30px;
+    color: #ffffff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#keys{
+    background-color: #eff2f5;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-areas: 
+    ". . . ."
+    "seven eight nine equal"
+    "four five six equal"
+    "one two three equal"
+    "zero dot clear equal";
+    border-bottom-left-radius: 10px;
+}
+
+#plus{
+    background-color:#d2dce3;
+}
+
+#minus{
+    background-color:#d2dce3;
+}
+
+#times{
+    background-color:#d2dce3;
+}
+
+#divide{
+    background-color:#d2dce3;
+}
+
+#one{
+    grid-area: one;
+}
+
+#two{
+    grid-area: two;
+}
+
+#three{
+    grid-area: three;
+}
+
+#four{
+    grid-area: four;
+}
+
+#five{
+    grid-area: five;
+}
+
+#six{
+    grid-area: six;
+}
+
+#seven{
+    grid-area: seven;
+}
+
+#eight{
+    grid-area: eight;
+}
+
+#nine{
+    grid-area: nine;
+}
+
+#zero{
+    grid-area: zero;
+    border-bottom-left-radius: 10px;
+}
+
+#dot{
+    grid-area: dot;
+}
+
+#clear{
+    grid-area: clear;
+}
+
+#equal{
+    grid-area: equal;
+    background-color: #f77077;
+    border-bottom-right-radius: 10px;
+}
+
+#keys button{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px;
+    border: none;
+    border-top: 1px solid #899dae;
+    border-right: 1px solid #899dae;
+}
+
+#keys #plus, #keys #minus, #keys #times, #keys #divide{
+    border-top: none;
+}
+
+#keys #divide{
+    border-right: none;
+}
+
+#keys #equal{
+    border-right: none;
+}
+
+
